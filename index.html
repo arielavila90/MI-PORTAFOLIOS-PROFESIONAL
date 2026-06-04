@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi PORTAFOLIO PROFESIONAL</title>
-    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="C:\Users\ariel\Desktop\PORTAFOLIO PROFESIONAL\IMAGENES\Inicio.png" type="image/x-icon">
 </head>
 <body>
 
@@ -15,7 +15,7 @@
                 <li><a href="#inicio">Inicio</a></li>
                 <li><a href="#habilidades">Habilidades</a></li>
                 <li><a href="#contacto">Contacto</a></li>
-                <li><a href="https://github.com" target="_blank">Mi GitHub (Enlace Externo)</a></li>
+                <li><a href="https://github.com/arielavila90/MI-PORTAFOLIOS-PROFESIONAL.git" target="_blank">Mi GitHub (Enlace Externo)</a></li>
             </ul>
         </nav>
     </header>
@@ -66,24 +66,32 @@
 
         <section>
             <h3>Recurso Multimedia</h3>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://youtu.be/TbzrOz8HbFM" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
         </section>
 
         <section id="contacto">
-            <h2>Contacto</h2>
-            <form action="#">
+        <h2>Contáctame</h2>
+        <form action="#" method="POST">
+            
+            <div>
                 <label for="nombre">Nombre:</label><br>
-                <input type="text" id="nombre" name="nombre" required><br><br>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo" required>
+            </div>
 
-                <label for="email">Email:</label><br>
-                <input type="email" id="email" name="email" required><br><br>
+            <div>
+                <label for="email">Correo Electrónico:</label><br>
+                <input type="email" id="email" name="email" placeholder="ejemplo@correo.com" required>
+            </div>
 
+            <div>
                 <label for="mensaje">Mensaje:</label><br>
-                <textarea id="mensaje" name="mensaje" rows="4"></textarea><br><br>
+                <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje aquí..." required></textarea>
+            </div>
 
-                <button type="submit">Enviar Mensaje</button>
-            </form>
-        </section>
+            <button type="submit">Enviar Mensaje</button>
+            
+        </form>
+    </section>
 
         <aside>
             <p><strong>Nota:</strong> Este es un proyecto académico para la evaluación de competencias en VS Code.</p>
