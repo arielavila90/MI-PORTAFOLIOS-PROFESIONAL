@@ -80,6 +80,7 @@ a:hover { color: var(--color-accent); }
     border-bottom-color: var(--color-primary);
 }
 
+/* Main como Grid */
 main {
     max-width: 1100px;
     margin: 2rem auto;
