@@ -1,4 +1,4 @@
-# Nombre del Proyecto: Mi WEB Personal Técnico
+# MI PORTAFOLIOS VIRTUAL PROFESIONAL
 
 ## Descripción
 Un sitio web estable desarrollado en HTML5 para presentar mi portafolios y cumplir con los requisitos de la evaluación de desarrollo web.
@@ -12,5 +12,5 @@ Un sitio web estable desarrollado en HTML5 para presentar mi portafolios y cumpl
 * Navegación mediante anclas internas y enlaces externos.
 
 ## Autor
-* **Nombre:** [Avila, Ariel Maximiliano]
-* **Curso:** [Programacion III - 2do/2026]##
+* Avila, Ariel Maximiliano
+* Programacion III - 2do/2026
